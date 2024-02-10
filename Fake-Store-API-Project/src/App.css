@@ -1,0 +1,71 @@
+.NavBar{
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.NavBar > a{
+    text-decoration: none;
+    color: black;
+}
+
+.UserPage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.box{
+align-items: safe;
+padding: 20px;
+border-radius: 10px;
+background-color: aliceblue;
+justify-content: space-between;
+gap: 30px;
+display: flex;
+flex-direction: column;
+margin: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.imgBox{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.FormDiv{   
+    border: 2px solid red;
+    width: 300px;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.formInput{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0px 20px;
+}
+
+form > button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgba(255, 0, 0, 0.728);
+    border: none;
+}
